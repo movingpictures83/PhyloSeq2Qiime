@@ -1,0 +1,2 @@
+Prefix plugins/PhyloSeq2Qiime/example
+Plugin PhyloSeq2Qiime inputfile parameters.txt outputfile qiime
