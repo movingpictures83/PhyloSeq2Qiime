@@ -1,9 +1,12 @@
+if(!(require(microbiome))) install.packages("microbiome")
+if(!(require(bioformat))) install.packages("bioformat")
+if(!(require(ape))) install.packages("ape")
+if(!(require(ggplot2))) install.packages("ggplot2")
+if(!(require(phyloseq))) install.packages("phyloseq")
+
 library(microbiome)
 library(biomformat)
 library(ape)
-
-
-
 
 dyn.load(paste("RPluMA", .Platform$dynlib.ext, sep=""))
 source("RPluMA.R")
